@@ -11,7 +11,8 @@ The script collects user reviews data for "СовКомБанк" from the websit
 - the review date,
 - rating,
 - bank response status,
-- whether the problem was resolved. 
+- whether the problem was resolved.
+
 It preprocesses the data by converting ratings to numerical values, timestamps to datetime format, and aggregates the data to calculate daily averages and totals for analysis. 
 Finally, it splits the dataset into training and testing sets to train a linear regression model for predicting future ratings based on historical trends.
 
@@ -19,7 +20,8 @@ Finally, it splits the dataset into training and testing sets to train a linear 
     Graph DB (neo4j + python)
 Analitics of complex social community by graph theory.
 The task involves analyzing a dataset of events and participants, which is loaded into a graph database (Neo4j) to explore relationships and community structures. 
-After transforming the data, the project imports participant and event nodes, establishes connections, and conducts community detection to visualize interactions and identify small groups within the larger network. 
+After transforming the data, the project imports participant and event nodes, establishes connections, and conducts community detection to visualize interactions and identify small groups within the larger network.
+
 Finally, a REST service is created in Python to query the graph database using a person's full name, returning the results in either GraphML or JSON format.
 
 ### 3. Boats.
@@ -34,7 +36,8 @@ Utilized multiple algorithms:
 - Logistic Regression,
 - Support Vector Classifier (SVC),
 - Gradient Boosting Classifier,
-- Random Forest Classifier,
+- Random Forest Classifier
+
 After splitting the data into training and testing sets, evaluated the performance of each model based on accuracy metrics, ultimately identifying the best-fit classifiers for predicting different construction characteristics of boats based on their specifications.
 
 ### 4. Bugers.
@@ -44,6 +47,7 @@ Analysis involved classifying different types of bugs based on features:
 - speed,
 - brightness,
 - volume.
+
 Used a Random Forest Classifier, fine-tuned through Grid Search for optimal parameters.
 After training on the original dataset, we assessed feature importance to identify key attributes influencing classification.
 Applied the model to a new dataset, successfully predicting bug types and revealing the distribution of classes, demonstrating the effectiveness of Random Forest in this classification task.
@@ -71,6 +75,7 @@ Created a list of configurations by varying the radius from -50 mm to 30 mm, cal
 - Optimization of Parameters
 Use optimization techniques to find the parameter configuration that maximizes thrust. This can involve defining an objective function that predicts thrust based on input features and applying an optimization algorithm to explore the parameter space.
 - Review Results. Compare the initial parameter configuration with the optimized configuration. Analyze the predicted thrust values to assess improvements and validate the effectiveness of the machine learning model.
+
 Conclusion:
 Following these steps allows for an effective application of machine learning to model the relationship between propeller design parameters and thrust values. This systematic approach enables the identification of optimal propeller configurations, demonstrating the capability of machine learning in solving complex engineering challenges.
 
@@ -96,6 +101,7 @@ The dataset can be accessed at https://stepik.org/media/attachments/course/4852/
 - bruises,
 - odor, 
 - and more.
+
 The necessary libraries, including pandas and NumPy, are imported, and the dataset is loaded for examination.
 Random Forest Classifier from the scikit-learn library is employed for modeling, with hyperparameters tuned using GridSearchCV to optimize performance.
 After training, the model's feature importance is visualized to assess which characteristics contribute most to the classification.
