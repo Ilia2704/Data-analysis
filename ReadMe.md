@@ -4,7 +4,7 @@ Here are projects, which show different sides of data analytics applicating to e
 
 Project's list: 
 
-###1. PredictionSolv.
+### 1. PredictionSolv.
     Time series + parsing
 Prediction rate of bank. Collected data from the past, which was prepared for using timeline-learning.
 The script collects user reviews data for "СовКомБанк" from the website www.sravni.ru, including:
@@ -15,14 +15,14 @@ The script collects user reviews data for "СовКомБанк" from the websit
 It preprocesses the data by converting ratings to numerical values, timestamps to datetime format, and aggregates the data to calculate daily averages and totals for analysis. 
 Finally, it splits the dataset into training and testing sets to train a linear regression model for predicting future ratings based on historical trends.
 
-###2. GraphTest.
+### 2. GraphTest.
     Graph DB (neo4j + python)
 Analitics of complex social community by graph theory.
 The task involves analyzing a dataset of events and participants, which is loaded into a graph database (Neo4j) to explore relationships and community structures. 
 After transforming the data, the project imports participant and event nodes, establishes connections, and conducts community detection to visualize interactions and identify small groups within the larger network. 
 Finally, a REST service is created in Python to query the graph database using a person's full name, returning the results in either GraphML or JSON format.
 
-###3. Boats.
+### 3. Boats.
     Jupyter 
 Classified various boat constructions using machine learning techniques. The dataset contains features such as:
 - mass,
@@ -37,7 +37,7 @@ Utilized multiple algorithms:
 - Random Forest Classifier,
 After splitting the data into training and testing sets, evaluated the performance of each model based on accuracy metrics, ultimately identifying the best-fit classifiers for predicting different construction characteristics of boats based on their specifications.
 
-###4. Bugers.
+### 4. Bugers.
     Jupyter
 Analysis involved classifying different types of bugs based on features:
 - reflection,
@@ -48,7 +48,7 @@ Used a Random Forest Classifier, fine-tuned through Grid Search for optimal para
 After training on the original dataset, we assessed feature importance to identify key attributes influencing classification.
 Applied the model to a new dataset, successfully predicting bug types and revealing the distribution of classes, demonstrating the effectiveness of Random Forest in this classification task.
 
-###5. Set_of_propellers.
+### 5. Set_of_propellers.
     Jupyter
 To leverage machine learning techniques to identify the combination of design parameters that maximizes the thrust of a propeller, showcasing the ability of neural networks to learn from a dataset and generalize beyond it. Steps Involved:
 - Dataset Creation. Define Parameters:
@@ -74,7 +74,7 @@ Use optimization techniques to find the parameter configuration that maximizes t
 Conclusion:
 Following these steps allows for an effective application of machine learning to model the relationship between propeller design parameters and thrust values. This systematic approach enables the identification of optimal propeller configurations, demonstrating the capability of machine learning in solving complex engineering challenges.
 
-###6. iris
+### 6. iris
     Jupiter
 The process involves using a neural network classifier, specifically a Decision Tree, to predict the species of flowers from the Iris dataset based on features:
 - sepal length,
@@ -87,7 +87,7 @@ The data is then split into training and testing sets, with the model being trai
 After training, the model makes predictions on the test set, and the results are evaluated by comparing the predicted species to the actual species. 
 Additionally, to generate new flower characteristics for a specific species, random feature values can be created and classified using the trained model, retaining those that match the desired species while discarding others.
 
-###7. mushroom_example
+### 7. mushroom_example
     Jupiter 
 This solution addresses a comprehensive task from lesson 3.5 on Stepik, focusing on identifying edible and non-edible mushrooms based on their characteristics. 
 The dataset can be accessed at https://stepik.org/media/attachments/course/4852/training_mush.csv, and it includes features:
